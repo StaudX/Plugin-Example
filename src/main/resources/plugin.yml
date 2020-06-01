@@ -1,0 +1,6 @@
+name: Example
+version: ${project.version}
+main: pw.solex.development.Example
+api-version: 1.13
+authors: [Staud]
+website: solex.pw
