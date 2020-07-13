@@ -10,7 +10,7 @@ public class ExampleCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        // This stops a person fro executing a command what is only for ingame use.
+        // This stops a person from executing a command what is only for ingame use.
         // For example you wouldn't execute /gmc in console.
         if(!(sender instanceof Player)) {
             sender.sendMessage(ChatColor.RED + "You cannot execute this command in console.");
